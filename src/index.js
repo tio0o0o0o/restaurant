@@ -1,1 +1,4 @@
-import "./style.css";
+import "./styles/style.css";
+import "./styles/home.css";
+
+alert("Server started");

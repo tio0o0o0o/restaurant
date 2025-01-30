@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 60px;
+}
+
+.imageAndText {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 30px;
+    margin: 20px 0 60px 0;
+    gap: 20px;
+
+    & p {
+        width: 75%;
+    }
+
+    & img {
+        width: 75%;
+        justify-self: end;
+    }
+}
