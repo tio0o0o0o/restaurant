@@ -1,22 +1,21 @@
 h1 {
     text-align: center;
     font-size: 80px;
-    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .imageAndText {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 30px;
-    margin: 20px 0 60px 0;
-    gap: 20px;
+    gap: 60px;
 
     & p {
-        width: 75%;
+        width: 100%;
     }
 
     & img {
-        width: 75%;
+        width: 100%;
         justify-self: end;
     }
 }

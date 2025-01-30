@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    padding: 0 200px 200px 200px;
+}
+
 header {
     display: flex;
     justify-content: center;
     padding: 40px 0;
     border-bottom: 2px solid black;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 nav {
@@ -21,14 +26,6 @@ nav {
         background-color: transparent;
         border: none;
         text-decoration: underline;
-        font-weight: bold;
         cursor: pointer;
     } 
-}
-
-footer {
-    text-align: center;
-    border-top: 2px solid black;
-    padding: 40px 0;
-    font-size: 30px;
 }
