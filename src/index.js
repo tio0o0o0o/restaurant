@@ -1,4 +1,5 @@
 import "./styles/style.css";
-import "./styles/home.css";
+import home from "./pages/home.js";
 
-alert("Server started");
+const contentElement = document.querySelector("#content");
+home.build(contentElement);
