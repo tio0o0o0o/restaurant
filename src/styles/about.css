@@ -1,0 +1,14 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: min(80vw, 800px);
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 30px;
+}

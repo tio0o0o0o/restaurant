@@ -18,11 +18,6 @@ export default {
         const p = document.createElement("p");
         p.textContent = "Get yo broke ass some sausage sizzles from sausagesizzle.co.nz";
         div.appendChild(p);
-    },
-    remove: function(parentElement) {
-        while(parentElement.hasChildNodes()) {
-            parentElement.removeChild(parentElement.firstChild);
-        }
     }
 }
 
